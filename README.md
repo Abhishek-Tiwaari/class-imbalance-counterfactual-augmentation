@@ -26,30 +26,6 @@ Compare pre- and post-augmentation results.
 Improved minority class performance after augmentation.
 Visualizations of feature importance (SHAP and LIME).
 
-# Directory Structure
-class-imbalance-counterfactual-augmentation/
-├── data/                     # Raw and processed datasets
-│   ├── original/             # Original dataset
-│   ├── augmented/            # Augmented dataset (synthetic data)
-├── notebooks/                # Jupyter notebooks for analysis
-│   ├── data_augmentation_model_training.ipynb  # Notebook for augmentation and training
-│   └── exploratory_analysis.ipynb             # Notebook for exploratory data analysis
-├── src/                      # Source code files
-│   ├── augmentation.py       # Script for data augmentation
-│   ├── train_model.py        # Script for model training
-│   ├── explainability.py     # SHAP and LIME analysis
-│   └── utils.py              # Helper functions and utilities
-├── results/                  # Results and outputs
-│   ├── metrics/              # Model performance metrics
-│   ├── visualizations/       # SHAP and LIME plots, decision boundaries
-├── tests/                    # Unit and integration tests
-│   ├── test_augmentation.py  # Tests for augmentation script
-│   ├── test_model.py         # Tests for training script
-├── LICENSE                   # License file (e.g., MIT License)
-├── README.md                 # Project overview and instructions
-├── requirements.txt          # Python dependencies
-├── .gitignore                # Files and folders to ignore
-└── CONTRIBUTING.md           # Guidelines for contributors
 
 # Example Visualizations
 Upload SHAP/LIME visualizations, confusion matrices, and performance metrics in the results/visualizations folder. Include these in the README under Results using markdown syntax:
