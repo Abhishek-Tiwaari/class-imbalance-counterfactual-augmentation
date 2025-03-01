@@ -1,4 +1,4 @@
-# class-imbalance-counterfactual-augmentation
+# Major Project Topic : Solving the class imbalance problem using a counterfactual method for data augmentation
 
 # Project Overview :
 This project explores the use of counterfactual data augmentation to address class imbalance in datasets. By generating synthetic samples for the minority class and leveraging explainable AI (SHAP and LIME), we improve model performance and interpretability.
